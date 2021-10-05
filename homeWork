@@ -1,0 +1,94 @@
+###targil 1 page 35:
+
+x = int(input("please enter a number"))
+i = 1
+y = x
+
+while i < 10:
+    x = int(input("please enter a number"))
+    if x < y:
+        break
+    y = x
+    i += 1
+    
+if i == 10:
+    print("sorted")
+else:
+    print("unsorted")
+    
+ ###targil 2 page 35:
+    
+x = int(input("please enter a number"))
+i = 1
+sum = x
+
+while i < 10:
+    x = int(input("please enter a number"))
+    if x == sum:
+        print(x)
+        break
+    sum = sum + x
+    i = i + 1
+
+if i == 10:
+    print("not found")
+    
+### targil 3 page 35
+
+i = 1
+while i < 10:
+    temp = int(input("enter a number"))
+
+    if temp > 40 or temp < -5:
+        print("wrong data")
+        break
+    i = i + 1
+    
+if i == 10:
+    print("right data")
+    
+### targil 4 page 
+
+i = 1
+pos = 0
+neg = 0
+not_vote = 0
+
+while i < 10:
+    vote = int(input("enter a number"))
+    if vote == 1:
+        pos = pos + 1
+    elif vote == 2:
+        neg = neg + 1
+    elif vote == 3:
+        not_vote = not_vote + 1
+    elif vote == 4:
+        print(i)
+        break
+    else:
+        continue
+    i = i + 1
+
+if i == 10:
+    print( pos, neg, not_vote)
+    
+targil 2 hw
+
+sum = 0
+quantity = 0
+
+while True:
+    x = int(input("please enter a number"))
+    if x == 0:
+        break
+    elif x > 77:
+        sum = sum + x
+        quantity = quantity + 1
+    else:
+        continue
+
+print(quantity, sum)
+
+###targil 3 last
+
+

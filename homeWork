@@ -91,4 +91,17 @@ print(quantity, sum)
 
 ###targil 3 last
 
+i = 2
+
+while True: #i <= 10:
+    if i > 10:
+        break
+    else:
+        x = int(input("please enter number: "))
+        if x < 0:
+            continue
+        elif  x % i == 0:
+            print("next round") 
+            i = i + 1
+
 
